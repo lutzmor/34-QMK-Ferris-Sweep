@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [1] = LAYOUT(
   //---------------------------------------------------------------------------------------       ----------------------------------------------------------------------------------
-    KC_ESCAPE,KC_AT    ,LSFT(KC_3)     ,TD(DANCE_31)     ,KC_PERC    ,KC_CIRC    ,KC_AMPR   ,KC_ASTR   ,KC_SCOLON   ,KC_BSPC ,
+    KC_ESCAPE,KC_AT    ,LSFT(KC_3)     ,TD(DANCE_31)     ,KC_PERC    ,KC_CIRC    ,KC_AMPR   ,KC_ASTR   ,TD(DANCE_64)   ,KC_BSPC ,
   //----------------------------------------------------------------------------       ----------------------------------------------------------------------------------
     KC_TAB,KC_EQL    ,LALT(KC_RBRACKET)    ,LALT(LSFT(KC_RBRACKET))    ,TD(DANCE_32)    ,TD(BKSL_HME),LSFT(KC_LBRC),LSFT(KC_RBRC),TD(PIPE_END),KC_ENTER   ,
   //----------------------------------------------------------------------------       ----------------------------------------------------------------------------------
