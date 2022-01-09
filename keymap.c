@@ -811,12 +811,12 @@ void dance_64_reset(qk_tap_dance_state_t *state, void *user_data);
 
 void on_dance_64(qk_tap_dance_state_t *state, void *user_data) {
 	if(state->count == 3) {
-		tap_code16(KC_COMM);
-		tap_code16(KC_COMM);
-		tap_code16(KC_COMM);
+		tap_code16(KC_SCOLON);
+		tap_code16(KC_SCOLON);
+		tap_code16(KC_SCOLON);
 	}
 	if(state->count > 3) {
-		tap_code16(KC_COMM);
+		tap_code16(KC_SCOLON);
 	}
 }
 
